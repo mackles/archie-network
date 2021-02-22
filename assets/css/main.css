@@ -97,6 +97,11 @@ figure h4::before {
   content: '↳ ';
 }
 
+
+figcaption {
+font-size:0.7rem;
+}
+
 /* Code blocks */
 code {
   background-color: #f1f1f1;
@@ -142,11 +147,12 @@ header {
 }
 
 header .main {
+  margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 h1::before { color: var(--maincolor); content: '# '; }
@@ -208,7 +214,7 @@ footer {
   padding: var(--footer-padding);
 }
 
-/* Common */
+/* Common  */
 .title h1 {
   margin-bottom: 0;
 }
@@ -276,6 +282,11 @@ article .title {
 display: flex;
 justify-content: space-between;
 }
+
+.site-description p {
+  margin: 0.3em 0 0.3em 0;
+}
+
 .tags li::before{
   content: "🏷 ";
 }
@@ -399,3 +410,8 @@ table td{
   stroke-linejoin: round;
   fill: none;
 }
+
+.graph {
+height: 20em;
+}
+
